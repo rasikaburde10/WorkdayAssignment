@@ -43,51 +43,51 @@ This task is designed to fetch candidate data from a specified URL, process the 
 
     The script will print the formatted output to the console and create a JSON file named `Final_Output.json`.
 
-   ## Example Console Output
+   ## Console Output
    ```plaintext
    Fetching data from the URL...
-Data successfully fetched
-Processing data...
-Data processing completed
-Generating and printing output...
-Hello Clark L Kent,
-Worked as: Staff Accountant, From Jan/01/1976 To Dec/31/1998 in New York, NY, US
-Gap in CV for 1 days
+    Data successfully fetched
+    Processing data...
+    Data processing completed
+    Generating and printing output...
+    Hello Clark L Kent,
+    Worked as: Staff Accountant, From Jan/01/1976 To Dec/31/1998 in New York, NY, US
+    Gap in CV for 1 days
 
-Worked as: Staff Accountant, From Jan/01/1999 To Jan/01/2002 in Pasadena, AA, US
-Gap in CV for 1 days
+    Worked as: Staff Accountant, From Jan/01/1999 To Jan/01/2002 in Pasadena, AA, US
+    Gap in CV for 1 days
 
-Worked as: Jigglypuff & Company, C.P.A, From Jan/01/2002 To Dec/31/2002 in Pasadena, AA, US   
-Gap in CV for 1 days
+    Worked as: Jigglypuff & Company, C.P.A, From Jan/01/2002 To Dec/31/2002 in Pasadena, AA, US   
+   Gap in CV for 1 days
 
-Worked as: C.O.A.'s, From Jan/01/2003 To Dec/31/2003 in Agrabah, GM, US
-Gap in CV for 366 days
+    Worked as: C.O.A.'s, From Jan/01/2003 To Dec/31/2003 in Agrabah, GM, US
+    Gap in CV for 366 days
 
-Worked as: Staff Accountant, From Jan/01/2004 To Dec/31/2004 in New York, NY, US
-Gap in CV for 1 days
+    Worked as: Staff Accountant, From Jan/01/2004 To Dec/31/2004 in New York, NY, US
+    Gap in CV for 1 days
 
-Worked as: Wax Preparer, From Jan/01/2006 To Dec/31/2006 in Agrabah, GM, US
-Gap in CV for 1 days
+    Worked as: Wax Preparer, From Jan/01/2006 To Dec/31/2006 in Agrabah, GM, US
+    Gap in CV for 1 days
 
-Worked as: C.O.A.'s, From Jan/01/2007 To Dec/31/2007 in Agrabah, GM, US
+    Worked as: C.O.A.'s, From Jan/01/2007 To Dec/31/2007 in Agrabah, GM, US
 
-Hello Bruce Wayne,
-Worked as: Sales/Membership Representative, From Jan/01/2010 To Jan/01/2011 in Atnalta, GA, US
-Gap in CV for 69 days
+    Hello Bruce Wayne,
+    Worked as: Sales/Membership Representative, From Jan/01/2010 To Jan/01/2011 in Atnalta, GA, US
+    Gap in CV for 69 days
 
-Worked as: Accounts Payable Accountant, From Mar/11/2011 To Jan/01/2012 in Atnalta, GA, US    
-Gap in CV for 125 days
+    Worked as: Accounts Payable Accountant, From Mar/11/2011 To Jan/01/2012 in Atnalta, GA, US    
+    Gap in CV for 125 days
 
-Worked as: Cash Receipts Accountant, From Jan/01/2012 To Jan/01/2013 in Zodiac, GM, US        
+    Worked as: Cash Receipts Accountant, From Jan/01/2012 To Jan/01/2013 in Zodiac, GM, US        
 
-Hello Peter Parker,
-Worked as: C.O.A.'s, From Mar/13/2008 To Jan/31/2010 in Agrabah, GM, US
-Gap in CV for 1 days
+    Hello Peter Parker,
+    Worked as: C.O.A.'s, From Mar/13/2008 To Jan/31/2010 in Agrabah, GM, US
+    Gap in CV for 1 days
 
-Worked as: Staff Accountant, From Feb/01/2010 To Sep/05/2016 in Agrabah, GM, US
+    Worked as: Staff Accountant, From Feb/01/2010 To Sep/05/2016 in Agrabah, GM, US
 
-Hello Walter White,
-No job experience listed.
+   Hello Walter White,
+    No job experience listed.
 
 ## Script Details
 
