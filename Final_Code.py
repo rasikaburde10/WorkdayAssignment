@@ -25,7 +25,7 @@ def process_data(raw_data):
             'cv_gaps': []
         }
         last_end_date = None
-
+        #process each job experience
         for job in sorted(entry.get('experience', []), key=lambda x: datetime.strptime(x['start_date'], '%b/%d/%Y')):
             job_title = job.get('title')
             job_start_date = datetime.strptime(job['start_date'], '%b/%d/%Y')
@@ -34,14 +34,14 @@ def process_data(raw_data):
 
             if not all([job_title, job_start_date, job_end_date, job_location]):
                 continue  # Skip if any job detail is missing
-
+            #calculate gap
             if last_end_date and job_start_date > last_end_date:
                 gap_duration = (job_start_date - last_end_date).days
                 candidate_info['cv_gaps'].append({
                     'gap_days': gap_duration,
                     'after_position': candidate_info['job_history'][-1]['role']
                 })
-
+            #append job information
             candidate_info['job_history'].append({
                 'role': job_title,
                 'start_date': job_start_date,
@@ -95,7 +95,7 @@ def save_json_output(candidates, output_file):
     print(f"JSON output saved to {output_file}")
 
 # Main script execution
-API_URL = 'https://hs-recruiting-test-resume-data.s3.amazonaws.com/allcands-full-api_hub_b1f6-acde48001122.json'  # Replace with the actual URL
+API_URL = 'https://hs-recruiting-test-resume-data.s3.amazonaws.com/allcands-full-api_hub_b1f6-acde48001122.json'  #given URL Link
 
 def main():
     raw_candidate_data = fetch_candidate_data(API_URL)
