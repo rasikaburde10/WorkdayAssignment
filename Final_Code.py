@@ -67,6 +67,7 @@ def print_output(candidates):
             print(f"Worked as: {job['role']}, From {job['start_date'].strftime('%b/%d/%Y')} To {job['end_date'].strftime('%b/%d/%Y')} in {job['location']}")
             if gap:
                 print(f"Gap in CV for {gap['gap_days']} days")
+                print()
         print()
 
 # Function to generate JSON output
