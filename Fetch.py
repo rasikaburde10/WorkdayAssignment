@@ -14,10 +14,10 @@ def save_to_file(data, filename):
         json.dump(data, f, indent=4)
     print(f"Data saved to {filename}")
 
-# Example usage
+
 URL = 'https://hs-recruiting-test-resume-data.s3.amazonaws.com/allcands-full-api_hub_b1f6-acde48001122.json'  # Replace with the actual URL
 FILENAME = 'fetched_data.json'  # Output file name
 
 data = fetch_data(URL)
-print(json.dumps(data, indent=4))  # Pretty-print the fetched JSON data
+print(json.dumps(data, indent=4))  # Pretty-print 
 save_to_file(data, FILENAME)
