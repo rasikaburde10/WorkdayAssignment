@@ -12,7 +12,7 @@ This task is designed to fetch candidate data from a specified URL, process the 
 ## Files
 
 - `Final_Code.py`: The main script for data extraction and processing.
-- `Final_output.json`: Sample output JSON file.
+- `Final_output.json`: Output JSON file.
 
 ## Installation
 
