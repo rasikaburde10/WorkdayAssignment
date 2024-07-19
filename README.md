@@ -45,7 +45,7 @@ This task is designed to fetch candidate data from a specified URL, process the 
 
    ## Console Output
    ```plaintext
-   Fetching data from the URL...
+    Fetching data from the URL...
     Data successfully fetched
     Processing data...
     Data processing completed
@@ -58,7 +58,7 @@ This task is designed to fetch candidate data from a specified URL, process the 
     Gap in CV for 1 days
 
     Worked as: Jigglypuff & Company, C.P.A, From Jan/01/2002 To Dec/31/2002 in Pasadena, AA, US   
-   Gap in CV for 1 days
+    Gap in CV for 1 days
 
     Worked as: C.O.A.'s, From Jan/01/2003 To Dec/31/2003 in Agrabah, GM, US
     Gap in CV for 366 days
@@ -86,7 +86,7 @@ This task is designed to fetch candidate data from a specified URL, process the 
 
     Worked as: Staff Accountant, From Feb/01/2010 To Sep/05/2016 in Agrabah, GM, US
 
-   Hello Walter White,
+    Hello Walter White,
     No job experience listed.
 
 ## Script Details
